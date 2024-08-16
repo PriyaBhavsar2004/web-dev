@@ -1,0 +1,29 @@
+#img{
+    padding:10px ;
+    margin: 15px;
+    margin-top: 0%;
+}
+button{
+    position: relative;
+    left: 97%;
+    bottom: 79px;
+    font-size: large;
+    color: #ffffff;
+    box-shadow:inset;
+    align-items: center;
+    font-display: center;
+    
+}
+button:hover{
+    background-color:rgb(39, 62, 86);
+}
+button.active{
+    background-color: #151111;
+    color:whitesmoke;
+}
+h1{
+    margin-left: 10px;
+}
+body{
+    
+} 

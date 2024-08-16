@@ -1,0 +1,103 @@
+ 
+.card{
+    width:350px;
+    height: 400px;
+    background-color: white;
+    display: block;
+    left:900px;
+    bottom: 150px;
+    position:fixed;
+    bottom: 100px;
+    margin: auto;
+    left:890px;
+    bottom: 155px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+
+}
+body{
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+#h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    
+    margin-top: -40px;
+    margin-left: 280px;
+}
+#email{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+    position: relative;
+    left:900px;
+    bottom: 200px;
+}
+#password{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left:901px;
+    bottom: 180px;
+}
+#input{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left:600px;
+    bottom: 100px;
+    background-color:#0866ff;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+
+}
+#p{
+    color: blue;
+    position: relative;
+    left:1000px;
+    bottom: 90px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    color:white;
+    background-color: rgb(41, 180, 28);
+    position: relative;
+    left:960px;
+    bottom: 110px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none; 
+}
+#text{
+position: relative;
+left: 920px;
+bottom: -40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(235, 12, 12);
+    text-decoration: underline;
+}
+   
