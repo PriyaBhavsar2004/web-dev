@@ -1,0 +1,225 @@
+body{
+    background-color:#7d6654;
+    overflow: hidden;
+    position: absolute;
+    
+}
+img{
+    width: 1005px;
+    height: 590px;
+    padding: 50px;
+    padding-left: 280px;
+    padding-top: 56px;
+}
+.text-image{
+    color: #04519b;
+    margin-top: -455px;
+    margin-left:189px ;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: 66px;
+    text-shadow: 2px 2px 30px rgba(247, 255, 249, 0.895); 
+     text-decoration:underline;
+    cursor:default;
+    visibility: visible;
+}
+ 
+#button:hover{
+    cursor:pointer;
+    width: 160px;
+    height: 70px;
+    font-size: 39px;
+    background-color:green ;
+}
+#button {
+    width: 170px;  
+    height:80px;
+    margin-top: 110px;
+    margin-left: 705px;
+    font-size: 43px;
+    color:ghostwhite;
+    background-color: #9451ae;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-weight:200px;
+    box-shadow: 5px 5px 10px rgb(240, 232, 232);
+    border:30px rgb(220, 22, 22);
+    text-align: center;
+
+}
+.setting{
+    width: 30px;
+    height: 30px;
+    margin-top: 75px;
+    margin-left: 790px;
+    position: absolute;
+    cursor: pointer;
+    visibility: visible;
+}
+
+#display{
+    width: 660px;
+    height: 660px;
+    background-color: #E5D0AC;
+    position: relative;
+    top: -515px;
+    left: 425px;
+    text-align: center;
+    border-color: black;
+    justify-content: center;
+    visibility: hidden;
+    transition-duration: 0;  
+    align-items: center;
+   
+    
+}
+#back{
+    width: 20px;
+    height: 20px;
+   margin-left: -805px;
+   margin-top: -1px;
+    cursor: pointer;
+   
+}
+#ph{
+    width: 250px;
+    height: 150px;
+    position:fixed; 
+    left: 900px;
+    margin-left: -550px;
+    margin-top: -45px
+} 
+
+#flag-container img {
+    width:800px;
+    height:150px; 
+    margin-top: -196px;
+    margin-left: -210px;
+    align-items: center; 
+}
+
+#options-container button {
+    color: rgb(16, 14, 14);
+    font-size:xx-large;
+    font-weight: 800px;
+    font-size: 50%;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    border-style: double;
+    border-color: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 450px;
+    height: 54px; 
+    display: flex;
+    padding: 10px;
+    justify-content: center;  
+    align-items: center;  
+    margin-top: 10px;
+    overflow: hidden;
+    top: -10px;
+
+}
+ 
+#options-container button:disabled {
+    cursor: not-allowed;
+    /* opacity: 0.6; */
+}
+
+#next-button {
+    background-color: #ba5c6c;
+    color: black;
+    width: 450px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 19px;
+    margin-left: 110px;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+  
+}
+
+#next-button:hover {
+    background-color: #88414d;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#play-again-button {
+    background-color: #CE524E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 245px;
+    transition: background-color 0.3s ease;
+     
+}
+
+#play-again-button:hover {
+    background-color: #DE8582;
+}
+#final{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+    
+}
+#login-page {
+    justify-items: center;
+    margin-left: 570px;
+    margin-top: 150px;
+    top: 30%;
+    left: 38%;
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #00000040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 300px;
+     height: 300px;
+}
+
+#login-page input {
+    margin: 10px;
+    padding: 14px;
+    font-size: 18px;
+    width: 230px;
+    border-color: #d81a1a;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#login-button {
+    background-color: #5a86c5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 28px;
+}
+
+#login-button:hover {
+    background-color: #3a5d8a;
+}
